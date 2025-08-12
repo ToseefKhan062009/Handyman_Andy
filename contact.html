@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Handyman in [City]</title>
+  <meta name="description" content="Request a quote or schedule service with [Handyman Name] in [City]. Call, email, or use the quick form.">
+  <link rel="canonical" href="https://www.example.com/contact">
+  <link rel="icon" href="/assets/favicon.ico">
+  <meta property="og:title" content="Contact | Handyman in [City]">
+  <meta property="og:description" content="Request a quote or schedule service with [Handyman Name] in [City]. Call, email, or use the quick form.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.example.com/contact">
+  <meta property="og:image" content="/assets/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preload" href="/assets/hero.jpg" as="image">
+  <link rel="stylesheet" href="/style.css">
+  <script defer src="/script.js"></script>
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "[Handyman Name]",
+  "image": "https://www.example.com/assets/og-image.jpg",
+  "telephone": "[Phone Number]",
+  "email": "info@[domain].com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "[Street Address]",
+    "addressLocality": "[City]",
+    "addressRegion": "[State]",
+    "postalCode": "[ZIP]",
+    "addressCountry": "US"
+  },
+  "url": "https://www.example.com/",
+  "areaServed": "[City], [Nearby Cities]",
+  "priceRange": "$$",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "08:00",
+      "closes": "18:00"
+    }
+  ]
+}
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="/index.html" aria-label="Home">
+        <span class="logo-mark">🛠️</span> <span class="logo-text">[Handyman Name]</span>
+      </a>
+      <button class="nav-toggle" aria-controls="site-nav" aria-expanded="false">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/services.html">Services</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/testimonials.html">Testimonials</a></li>
+          <li><a class="btn btn-small" href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <a class="cta-phone" href="tel:[Phone Number]">Call: [Phone Number]</a>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <h1>Contact Us</h1>
+    <p>Tell us what you need help with and your preferred times. We’ll respond quickly.</p>
+    <div class="grid-2">
+      <form class="card" id="contact-form" action="https://formspree.io/f/[your_formspree_id]" method="POST" novalidate>
+        <label>Full Name
+          <input type="text" name="name" placeholder="Jane Doe" required>
+        </label>
+        <label>Email
+          <input type="email" name="email" placeholder="you@example.com" required>
+        </label>
+        <label>Phone (optional)
+          <input type="tel" name="phone" placeholder="[Phone Number]">
+        </label>
+        <label>Service Needed
+          <select name="service">
+            <option value="">Choose…</option>
+            <option>Repairs</option>
+            <option>Installations</option>
+            <option>Maintenance</option>
+            <option>Other</option>
+          </select>
+        </label>
+        <label>Details
+          <textarea name="message" rows="5" placeholder="Briefly describe the issue or project…" required></textarea>
+        </label>
+        <button class="btn" type="submit">Send</button>
+        <p class="form-note">By submitting, you agree to be contacted regarding your request.</p>
+      </form>
+
+      <aside>
+        <div class="card">
+          <h2>Reach us directly</h2>
+          <p><strong>Phone:</strong> <a href="tel:[Phone Number]">[Phone Number]</a></p>
+          <p><strong>Email:</strong> <a href="mailto:info@[domain].com">info@[domain].com</a></p>
+          <p><strong>Service Area:</strong> [City], [Nearby Cities]</p>
+        </div>
+        <div class="map card">
+          <h2>Find us</h2>
+          <iframe title="Map" src="https://www.google.com/maps?q=[City],[State]&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container grid-3">
+      <div>
+        <h3>[Handyman Name]</h3>
+        <p class="muted">Reliable handyman services in [City], [State]. Licensed & insured.</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul class="no-bullets">
+          <li><a href="tel:[Phone Number]">[Phone Number]</a></li>
+          <li><a href="mailto:info@[domain].com">info@[domain].com</a></li>
+          <li>[Street Address], [City], [State] [ZIP]</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Hours</h4>
+        <ul class="no-bullets">
+          <li>Mon–Sat: 8:00 AM – 6:00 PM</li>
+          <li>Sun: Closed</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <small>© <span id="year"></span> [Handyman Name]. All rights reserved.</small>
+      <div class="socials">
+        <a href="[Facebook URL]" aria-label="Facebook">Facebook</a>
+        <a href="[LinkedIn URL]" aria-label="LinkedIn">LinkedIn</a>
+        <a href="[Google Business Profile URL]" aria-label="Google Business Profile">Google</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
